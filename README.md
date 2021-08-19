@@ -4,5 +4,5 @@ This package estimates the strength of mate preference and the strength of pheno
 
 Clancey, E., Johnson, T.R., Harmon, L.J., and Hohenlohe, P.A. (in revision) Estimation of the strength of mate preference from mated pairs observed in the wild. Evolution.
 
-
+devtools::install_github("erinclancey/matepref")
 
