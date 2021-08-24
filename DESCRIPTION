@@ -2,7 +2,7 @@ Package: matepref
 Type: Package
 Title: A Maximum Likelihood Based Method to Estimate the Strength of Mate Preference
 Version: 0.1.0
-Authors@R: c(person("Clancy", "Erin", email = "clanceyerin@gmail.com",
+Authors@R: c(person("Clancey", "Erin", email = "clanceyerin@gmail.com",
   role = c("aut", "cre")), person("Johnson", "Timothy", 
   email = "trobinj@gmail.com", role = c("aut")))
 Maintainer: The package maintainer <clanceyerin@gmail.com>
