@@ -2,8 +2,8 @@ Package: matepref
 Type: Package
 Title: A Maximum Likelihood Based Method to Estimate the Strength of Mate Preference
 Version: 0.1.0
-Authors@R: c(person("Clancey", "Erin", email = "clanceyerin@gmail.com",
-  role = c("aut", "cre")), person("Johnson", "Timothy", 
+Authors@R: c(person("Erin", "Clancey", email = "clanceyerin@gmail.com",
+  role = c("aut", "cre")), person("Timothy", "Johnson",
   email = "trobinj@gmail.com", role = c("aut")))
 Maintainer: The package maintainer <clanceyerin@gmail.com>
 Description: This package estimates the strength of mate preference and the strength of phenotypic offset between trait values in mated pairs of organisms, as well as means and standard deviations from X and Y normally distributed phenotypic traits. The package uses a likelihood function defined by the authors that is maximized using the built-in function optim(). The package computes maximum likelihood estimates, the log-likelihood, and a Hessian matrix, and returns parameter estimates and the standard errors for these estimates. 
