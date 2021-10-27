@@ -18,10 +18,10 @@
 #' @source Clancey, E., Johnson, T. R., Harmon, L. J., and Hohenlohe, P. A. Estimation of the strength of mate preference from mated pairs observed in the wild. Unpublished manuscript.
 #'
 #' @examples
-#' mydata <- matingdata(0.5, 0, 50, 52, 1, 1, 100, 50, 50)
+#' mydata <- simdata(0.5, 0, 50, 52, 1, 1, 100, 50, 50)
 #'
 #' @export
-matingdata <- function(alpha, delta, mx, my, sx, sy, np, nx, ny, gamma = 1) {
+simdata <- function(alpha, delta, mx, my, sx, sy, np, nx, ny, gamma = 1) {
 
    xp <- rep(NA, np)
    yp <- rep(NA, np)
