@@ -16,7 +16,7 @@
 #' # simulate data
 #' mydata <- simdata(0.5, 0, 50, 52, 1, 1, 100, 50, 50)
 #' # set starting values using unpaired observations for means and standard deviations
-#' theta <- c(0, 0, mean(c(mydata$xp, mydata$x)), mean(c(mydata$yp, mydata$y)), sd(c(mydata$xp, mydata$x)), sd(c(mydata$yp, mydata$y)))
+#' theta_start <- c(0, 0, mean(c(mydata$xp, mydata$x)), mean(c(mydata$yp, mydata$y)), sd(c(mydata$xp, mydata$x)), sd(c(mydata$yp, mydata$y)))
 #' # compute MLEs and Hessian (set fnscale = -1 to maximize rather than minimize)
 #' fit <- optim(theta, loglik, method = "L-BFGS-B", control = list(fnscale = -1),
 #'   lower = c(0, 0, -Inf, -Inf, 0, 0), hessian = TRUE,
